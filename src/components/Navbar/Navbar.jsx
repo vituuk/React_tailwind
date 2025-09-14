@@ -21,7 +21,8 @@ export const NavLinks=[
   {
     id:"4",
     name:"BOOKING",
-    link:"/#booking"},
+    link:"/#booking"
+  },
 ]
 const Navbar = ({theme,setTheme}) => {
  const [showMenu,setShowMneu]=useState(false);
